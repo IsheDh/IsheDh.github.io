@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 40px 20px 0 20px ;
+}
+
+.container .heading{
+	width: 50%;
+	padding-bottom: 50px;
+
+}
+
+.container .heading h3{
+	font-size: 3em;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	border-bottom: 3px solid gray;
+	color: gray;
+}
+
+.container .heading h3 span{
+	font-weight: 100;
+	color:lightgray;
+}
+
+.container .box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.container .box .dream{
+	display: flex;
+	flex-direction: column;
+	width: 32.5%;
+}
+
+.container .box .dream img{
+	width: 100%;
+	padding-bottom: 15px;
+	border-radius: 5px;
+
+
+
+}
+
+.container .btn{
+	margin: 40px 0 70px  0;
+	background:gray;
+	padding: 15px 40px;
+	border-radius: 5px;
+}
+
+
+.container .btn a {
+	color: #fff;
+	font-size: 1.2em;
+	text-decoration: none;
+	font-weight: bolder;
+	letter-spacing: 1.2px;
+}
+
+.sub-footer {
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+.sub-footer p {
+	font-size: 20px;
+	color: gray;
+	line-height: 60px;
+}
+
+.sub-footer a{
+	text-decoration: none;
+	color: skyblue;
+}
+
+
+/*footer starts here*/
+
+.footer {
+	text-align: center;
+}
+.footer ul {
+	padding: 0px;
+	margin: 0px;
+}
+.footer ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.footer .social-icons {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.footer .social-icons ul li {
+	margin: 0px 10px;
+}
+.footer .social-icons a {
+	width: 32px;
+	height: 32px;
+	color: #fff;
+	background-color: #aaa;
+	text-align: center;
+	display: inline-block;
+	line-height: 33px;
+	border-radius: 50%;
+	font-size: 13px;
+	transition: all 0.5s;
+}
+.footer .social-icons a:hover {
+	background-color: #3a8bcd;
+}
+
+
+
+@media  only screen and (max-width: 768px){
+	.container .box{
+		flex-direction:column;
+	}
+
+	.container .box .dream{
+		width: 100%;
+	
+	}
+
+}
+
+@media  only screen and (max-width: 642px){
+	.container .heading{
+		width:100%;
+	}
+
+
+    .container .heading h3{
+    	font-size: 1em;
+	}
+
+}
